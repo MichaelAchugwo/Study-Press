@@ -97,8 +97,8 @@ nav {
 }
 
 div.nav-link-group {
-  padding: 0 30px;
-  margin: 20px 0;
+  padding: 20px 30px;
+  margin: 0;
 }
 
 a.nav-links {
@@ -108,6 +108,10 @@ a.nav-links {
   text-decoration: none;
   font-size: 13px;
   font-weight: 400;
+}
+
+a#navBtn {
+  display: none;
 }
 
 a.nav-links:hover {
@@ -168,12 +172,17 @@ h4.education-text {
   margin-bottom: 15px;
 }
 
-h4.education-button {
+a.education-button {
   font-weight: 400;
+  color: white;
+  background-color: #202c45;
+  border-left: 3px solid #f2184f;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
 }
 
-h3.education-color,
-h4.education-color {
+h3.education-color {
   color: white;
   background-color: #202c45;
   border-left: 3px solid #f2184f;
@@ -979,4 +988,210 @@ a.copyright-links {
 
 a.copyright-border {
   border-right: 1px solid #666666;
+}
+
+@media only screen and (max-width: 900px) {
+  div.right-part,
+  div.left-part {
+    display: block;
+    text-align: center;
+    float: none;
+  }
+  div.header-phone,
+  div.header-time-open {
+    display: block;
+    margin: 20px;
+  }
+  div.header-time-open div.right-part {
+    display: inline-block;
+  }
+  div.header-phone div.right-part {
+    display: inline-block;
+  }
+  div.header2 {
+    padding-bottom: 0;
+  }
+  div.nav-link-group {
+    margin: 0 20px;
+    padding: 0;
+    display: none;
+  }
+  div.showNav {
+    display: block;
+  }
+  a.nav-links {
+    display: block;
+    border-radius: 0;
+    background-color: white;
+    color: #666;
+    text-align: left;
+    border-bottom: 1px solid #666;
+    padding: 16px;
+  }
+  a#navBtn {
+    display: block;
+    background-color: #202c45;
+    border: 0;
+    font-size: 20px;
+    text-align: right;
+    padding: 10px 30px;
+    cursor: pointer;
+  }
+  a#navBtn:hover {
+    color: #666;
+  }
+  a.active-nav-link {
+    color: #202c45;
+  }
+  div.nav-book-now {
+    display: none;
+  }
+  section.education {
+    background-position-x: -250px;
+  }
+  div.education {
+    display: block;
+    padding-left: 0px;
+  }
+  h1.education-header {
+    font-size: 60px;
+  }
+  h3.education-color {
+    font-size: 22px;
+  }
+  h4.education-text {
+    font-size: 14px;
+  }
+  a.education-button {
+    font-size: 13px;
+  }
+  section.about {
+    padding: 50px 0;
+  }
+  div.about-text {
+    width: auto;
+    text-align: left;
+    padding: 10px 20px;
+  }
+  div.about-image {
+    width: auto;
+    padding: 10px 20px;
+  }
+  div.courses-card-group,
+  div.teachers-card-group,
+  section.details,
+  section.event-and-choice,
+  div.news-card-group, div.top-half-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  div.courses-card,
+  div.teachers-card,
+  div.events-card,
+  div.testimonials-card,
+  div.news-card,
+  div.map,
+  div.contact-form {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  td.gallery-img {
+    height: 70px;
+  }
+  section.details {
+    padding: 50px 0;
+  }
+  section.event-and-choice,
+  section.testimonials,
+  section.news,
+  section.contact {
+    padding: 50px 20px;
+  }
+  div.detail {
+    margin-bottom: 20px;
+  }
+  section.event-and-choice div.upcoming-events {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  section.event-and-choice div.why-choose {
+    width: 100%;
+    padding: 0;
+  }
+  div.events-card div.left-part {
+    display: inline-block;
+  }
+  div.events-card div.right-part {
+    padding: 0 10px;
+    width: 65%;
+    float: right;
+    text-align: left;
+  }
+  h5.event-card-text {
+    padding-bottom: 0;
+  }
+  p.event-card-small {
+    padding-bottom: 0;
+    padding-top: 10px;
+  }
+  div.testimonials-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px;
+  }
+  p.testimonials-card-text {
+    padding-bottom: 10px;
+  }
+  section.testimonials h2.small-border {
+    margin-bottom: 60px;
+  }
+  div.contact-form {
+    padding: 20px 0 0;
+  }
+  section.contact div {
+    flex-direction: column;
+    align-items: center;
+  }
+  input.form-input {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  section.sponsors {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  div.top-half-footer {
+    padding: 70px 20px 0;
+  }
+  div.bottom-half-footer {
+    flex-direction: column;
+    padding: 20px 20px 70px;
+  }
+  div.quarter-footers {
+    width: 100%;
+    border: 0;
+  }
+  div.opening-hours {
+    border-bottom: 1px solid #333;
+  }
+  p.footer-elements {
+    display: inline-block;
+  }
+  p.footer-email {
+    padding-left: 30px;
+  }
+  div.footer-call-now, div.footer-connect-with, div.footer-subscribe {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+  }
+  div.footer-socials {
+    justify-content: left;
+    gap: 10px;
+  }
+  div.footer-copyright {
+    text-align: center;
+  }
 }
