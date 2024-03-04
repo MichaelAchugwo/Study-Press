@@ -1183,6 +1183,9 @@ a.copyright-border {
     width: 100%;
     border: 0;
   }
+  div.quarter-footers img {
+    display: block;
+  }
   div.opening-hours {
     border-bottom: 1px solid #333;
   }
