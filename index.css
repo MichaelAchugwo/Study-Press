@@ -1081,7 +1081,8 @@ a.copyright-border {
   div.teachers-card-group,
   section.details,
   section.event-and-choice,
-  div.news-card-group, div.top-half-footer {
+  div.news-card-group,
+  div.top-half-footer {
     flex-direction: column;
     align-items: center;
   }
@@ -1110,6 +1111,16 @@ a.copyright-border {
   div.detail {
     margin-bottom: 20px;
   }
+  div.courses-card-img,
+  div.courses-card-img-2,
+  div.courses-card-img-3 {
+    height: 300px;
+  }
+  div.teachers-card-img,
+  div.teachers-card-img-2,
+  div.teachers-card-img-3 {
+    height: 400px;
+  }
   section.event-and-choice div.upcoming-events {
     width: 100%;
     padding: 0;
@@ -1125,7 +1136,7 @@ a.copyright-border {
   div.events-card div.right-part {
     padding: 0 10px;
     width: 65%;
-    float: right;
+    display: inline-block;
     text-align: left;
   }
   h5.event-card-text {
@@ -1181,7 +1192,9 @@ a.copyright-border {
   p.footer-email {
     padding-left: 30px;
   }
-  div.footer-call-now, div.footer-connect-with, div.footer-subscribe {
+  div.footer-call-now,
+  div.footer-connect-with,
+  div.footer-subscribe {
     display: block;
     width: 100%;
     padding: 10px 0;
