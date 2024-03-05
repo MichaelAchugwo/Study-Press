@@ -1233,7 +1233,7 @@ a.copyright-border {
     text-align: center;
   }
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
   div.header2 div.left-part img {
     width: 100px;
   }
