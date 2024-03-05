@@ -1054,7 +1054,7 @@ a.copyright-border {
     padding-left: 0px;
   }
   h1.education-header {
-    font-size: 60px;
+    font-size: 45px;
   }
   h3.education-color {
     font-size: 22px;
@@ -1064,6 +1064,20 @@ a.copyright-border {
   }
   a.education-button {
     font-size: 13px;
+  }
+  div.events-card {
+    display: flex;
+    align-content: start;
+  }
+  div.events-card div.left-part {
+    width: 90px;
+    height: 90px;
+  }
+  input.footer-input {
+    width: 50%;
+  }
+  div.events-card div.left-part img {
+    width: 90px;
   }
   section.about {
     padding: 50px 0;
@@ -1097,7 +1111,7 @@ a.copyright-border {
     margin-bottom: 15px;
   }
   td.gallery-img {
-    height: 70px;
+    height: 50px;
   }
   section.details {
     padding: 50px 0;
@@ -1107,6 +1121,10 @@ a.copyright-border {
   section.news,
   section.contact {
     padding: 50px 20px;
+  }
+  section.gallery,
+  section.event-and-choice {
+    padding: 70px 20px;
   }
   div.detail {
     margin-bottom: 20px;
