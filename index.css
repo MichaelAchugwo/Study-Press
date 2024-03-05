@@ -1011,6 +1011,10 @@ a.copyright-border {
   div.header2 {
     padding-bottom: 0;
   }
+  h4.gallery-sub-headers {
+  font-size: 14px;
+  padding: 10px 5px;
+}
   div.nav-link-group {
     margin: 0 20px;
     padding: 0;
@@ -1228,4 +1232,32 @@ a.copyright-border {
   div.footer-copyright {
     text-align: center;
   }
+}
+@media only screen and (max-width: 350px) {
+  div.header2 div.left-part img {
+    width: 100px;
+  }
+  section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  h1.education-header {
+    font-size: 35px;
+  }
+h1.about-header {
+  font-size: 1.5rem;
+}
+div.detail {
+  width: 50%;
+}
+h6.teachers-card-button {
+  padding: 10px;
+}
+div.contact-form a {
+  display: block;
+  margin-bottom: 10px;
+}
+div.news-card-date {
+  margin-bottom: 10px;
+}
 }
